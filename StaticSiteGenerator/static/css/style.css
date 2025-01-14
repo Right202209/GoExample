@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.container {
+    background-color: white;
+    padding: 20px;
+}
+.tags a{
+    margin-right: 5px;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #eee;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+}
+.tags a:hover{
+    background-color: #ddd;
+}

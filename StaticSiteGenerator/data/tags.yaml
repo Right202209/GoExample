@@ -1,0 +1,12 @@
+"go":
+  name: "Go"
+  slug: "go"
+  description: "Golang programming language"
+"web":
+  name: "Web"
+  slug: "web"
+  description: "Web development"
+"blog":
+  name: "Blog"
+  slug: "blog"
+  description: "Blog about something"

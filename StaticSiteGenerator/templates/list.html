@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>文章列表</title>
+</head>
+<body>
+<h1>文章列表</h1>
+<ul>
+  {{ range . }}
+  <li>
+    <a href="{{ .Link }}">{{ .Title }}</a>
+  </li>
+  {{ end }}
+</ul>
+</body>
+</html>
